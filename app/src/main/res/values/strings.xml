@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Frankenstein or, the Modern Prometheus</string>
+    <string name="navigation_drawer_open">Open navigation draw</string>
+    <string name="navigation_drawer_close">Close navigation draw</string>
+    <string name="title_activity_content_main">content_main</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main">main</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="Adem"><font fgcolor='#7f0b14' size="20">Adem</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Idriss"><font fgcolor='#7f0b14' size="20">Idris</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Nuh"><font fgcolor='#7f0b14' size="20">Nuh</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Hud"><font fgcolor='#7f0b14' size="20">Hud</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Salih"><font fgcolor='#7f0b14' size="20">Salih</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Ibrahim"><font fgcolor='#7f0b14' size="20">Ibrahim</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Lut"><font fgcolor='#7f0b14' size="20">Lut</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Suajb"><font fgcolor='#7f0b14' size="20">Šuajb</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Ismail"><font fgcolor='#7f0b14' size="20">Ismail</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Ishak"><font fgcolor='#7f0b14' size="20">Ishak</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Jusuf"><font fgcolor='#7f0b14' size="20">Jusuf</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Ejjub"><font fgcolor='#7f0b14' size="20">Ejjub</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Zulkifl"><font fgcolor='#7f0b14' size="20">Zulkifl</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Junus"><font fgcolor='#7f0b14' size="20">Junus</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Musa"><font fgcolor='#7f0b14' size="20">Musa</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Josua"><font fgcolor='#7f0b14' size="20">Jošua</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Hidr"><font fgcolor='#7f0b14' size="20">Hidr</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Ilijas"><font fgcolor='#7f0b14' size="20">Ilijas</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Hezekijel"><font fgcolor='#7f0b14' size="20">Hezekijel</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="ElJese"><font fgcolor='#7f0b14' size="20">El-Jese</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Samuel"><font fgcolor='#7f0b14' size="20">Samuel</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Davud"><font fgcolor='#7f0b14' size="20">Davud</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Sulejman"><font fgcolor='#7f0b14' size="20">Sulejman</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Eremija"><font fgcolor='#7f0b14' size="20">Eremija</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Danijal"><font fgcolor='#7f0b14' size="20">Danijal</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Zekerija"><font fgcolor='#7f0b14' size="20">Zekerija</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Isa"><font fgcolor='#7f0b14' size="20">Isa</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Letter1"><font fgcolor='#7f0b14' size="15">Letter 1</font></string>
+    <string name="Izraelcanskivjerovjesnici"><font fgcolor='#7f0b14' size="15">Izraelćanski vjerovjesnici</font></string>
+    <string name="IzraelcanskivjerovjesnicinakonMusa"><font fgcolor='#7f0b14' size="15">Izraelćanski vjerovjesnici nakon Musa a.s.</font></string>
+    <string name="Poglavljeonarodimakojisuunisteni"><font fgcolor='#7f0b14' size="15">Poglavlje o narodima koji su uništeni</font></string>
+    <string name="Manjepoznaterijeci"><font fgcolor='#7f0b14' size="15">Manje poznate riječi</font></string>
+</resources>

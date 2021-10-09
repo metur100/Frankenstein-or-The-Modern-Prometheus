@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".SecondTab">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/appbackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/allprophetsappbackground" />
+
+            <Button
+                android:id="@+id/letter1_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Letter1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/izraelcanskivjerovjesnicibutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Izraelcanskivjerovjesnici"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/izraelcanskivjerovjesnicinakonmusaabutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/IzraelcanskivjerovjesnicinakonMusa"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/poglavljeonarodimakojisuunistenibutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                  android:text="@string/Poglavljeonarodimakojisuunisteni"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/manjepoznaterijecibutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Manjepoznaterijeci"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

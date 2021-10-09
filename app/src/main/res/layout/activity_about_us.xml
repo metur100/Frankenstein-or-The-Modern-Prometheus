@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="21dp"
+        android:text="\n\nU kazivanjima o vjerovjesnicima i njihovim narodima su velike pouke i upute. Allah, aze ve džel, kaže: U kazivanjima o njima je pouka za one koji su razumom obdareni. Kur'an nije izmišljena besjeda, on priznaje da su istinite knjige prije njega objavljene, i objašnjava sve, i putokaz je i milost naroda koji vjeruje. (Jusuf, 111.)
+
+\n\nAllahovi, subhanehu ve te'ala vjerovjesnici su Njegovi odabrani robovi koje je On odabrao da budu posrednici između Njega i Njegovih stvorenja i ukazao im posebnu počast time što im je poslao objavu. Oni su i pored toga što su ljudska bića, bili sa najvećim znanjem o Allahu dž.š., ibadetima i najvećom bogobojaznošću, i zbog toga su zaslužili da ponesu emanet prenošenja vjere. Allah, aze ve džel, nije ostavio nijedan narod a da im nije poslao poslanika ili nekog ko će im prenijeti poslanicu, od dobrih ljudi koji su slijedili njihov put. Allah, aze v edžel, kaže: Tvoje je da opominješ, a svaki narod je imao onoga ko ga je na Pravi put upućivao. (Er-Rad, 7.) i ...a nije bilo naroda kome nije došao onaj koji ga je opominjao. (Fatir, 24.)"
+        android:textAlignment="center"
+        android:textColor="@color/yallow"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/coverbookimageibnkesirkazivanjaovjerovjesnicima" />
+
+</RelativeLayout>

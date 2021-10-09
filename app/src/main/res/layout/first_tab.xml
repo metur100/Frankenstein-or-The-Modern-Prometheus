@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FirstTab">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <ImageView
+                android:id="@+id/appbackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/allprophetsappbackground" />
+
+            <Button
+                android:id="@+id/ademsbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Adem"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/idrissbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:text="@string/Idriss"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nuhbuttton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Nuh"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hudbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Hud"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/salihbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Salih"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ibrahimbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Ibrahim"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_6"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/lutbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Lut"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_7"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/suajbbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Suajb"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ismailbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Ismail"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_9"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/ishakbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Ishak"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_10"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/jusufbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Jusuf"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_11"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ejubbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Ejjub"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_12"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/zulkiflbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Zulkifl"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_13"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/junusbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Junus"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/musabutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Musa"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_15"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/josuabutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Josua"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_16"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hidrbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Hidr"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_17"
+                android:paddingRight="40sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ilijasbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Ilijas"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_18"
+                android:paddingRight="40sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/hezekijelbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Hezekijel"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_19"
+                android:paddingRight="40sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/eljesebutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ElJese"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_20"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/samuelbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Samuel"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_21"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/davudbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Davud"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_22"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sulejmanbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Sulejman"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_23"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/eremijabutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Eremija"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_24"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/danijalbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Danijal"
+                android:paddingRight="40sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_25"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/jahjaizekerijjabutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Zekerija"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_26"
+                android:paddingRight="40sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/isabutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Isa"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                app:icon="@drawable/ic_27"
+                android:paddingRight="40sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
