@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class PoglavljeONarodimaKojiSuUnisteni extends AppCompatActivity {
+public class Letter3 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,15 +22,15 @@ public class PoglavljeONarodimaKojiSuUnisteni extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_poglavlje_o_narodima_koji_su_unisteni);
+        setContentView(R.layout.activity_letter3);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdocpoglavljeonarodimakojisuunisteni);
+        TextView largeText = (TextView) findViewById(R.id.letter3_textview);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.poglavljeonarodimakojisuupotpunostiunisteni);
+            InputStream in_s = res.openRawResource(R.raw.letter3_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -40,7 +40,7 @@ public class PoglavljeONarodimaKojiSuUnisteni extends AppCompatActivity {
             largeText.setText("Error: Please, try again!");
         }
 
-        gestureDetector = new GestureDetector(this, new GestureListenerPoglavljeONarodimaKojiSuUnisteni());
+        gestureDetector = new GestureDetector(this, new GestureListenerLetter3());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +59,7 @@ public class PoglavljeONarodimaKojiSuUnisteni extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_poglavljeonarodimakojisuunisteni);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_letter3);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +74,7 @@ public class PoglavljeONarodimaKojiSuUnisteni extends AppCompatActivity {
     }
 }
 
-class GestureListenerPoglavljeONarodimaKojiSuUnisteni extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerLetter3 extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

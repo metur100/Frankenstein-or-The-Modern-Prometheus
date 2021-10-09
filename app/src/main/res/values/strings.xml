@@ -15,7 +15,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
-    <string name="Adem"><font fgcolor='#7f0b14' size="20">Adem</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="chapter1"><font fgcolor='#7f0b14' size="20">Chapter 1</font></string>
     <string name="Idriss"><font fgcolor='#7f0b14' size="20">Idris</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
     <string name="Nuh"><font fgcolor='#7f0b14' size="20">Nuh</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
     <string name="Hud"><font fgcolor='#7f0b14' size="20">Hud</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
@@ -42,9 +42,9 @@
     <string name="Danijal"><font fgcolor='#7f0b14' size="20">Danijal</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
     <string name="Zekerija"><font fgcolor='#7f0b14' size="20">Zekerija</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
     <string name="Isa"><font fgcolor='#7f0b14' size="20">Isa</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Letter1"><font fgcolor='#7f0b14' size="15">Letter 1</font></string>
-    <string name="Izraelcanskivjerovjesnici"><font fgcolor='#7f0b14' size="15">Izraelćanski vjerovjesnici</font></string>
-    <string name="IzraelcanskivjerovjesnicinakonMusa"><font fgcolor='#7f0b14' size="15">Izraelćanski vjerovjesnici nakon Musa a.s.</font></string>
-    <string name="Poglavljeonarodimakojisuunisteni"><font fgcolor='#7f0b14' size="15">Poglavlje o narodima koji su uništeni</font></string>
+    <string name="letter1"><font fgcolor='#7f0b14' size="15">Letter 1</font></string>
+    <string name="letter2"><font fgcolor='#7f0b14' size="15">Letter 2</font></string>
+    <string name="letter3"><font fgcolor='#7f0b14' size="15">Letter 3</font></string>
+    <string name="letter4"><font fgcolor='#7f0b14' size="15">Letter 4</font></string>
     <string name="Manjepoznaterijeci"><font fgcolor='#7f0b14' size="15">Manje poznate riječi</font></string>
 </resources>

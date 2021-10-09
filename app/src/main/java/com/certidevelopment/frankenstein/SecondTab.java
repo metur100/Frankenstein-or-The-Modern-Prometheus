@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 
 public class SecondTab extends Fragment {
-    private InterstitialAd mInterstitialAd;
-    private boolean euConsent = false;
+    //private InterstitialAd mInterstitialAd;
+    //private boolean euConsent = false;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -36,10 +36,9 @@ public class SecondTab extends Fragment {
 //        });
 
         Button letter1Button = (Button) view.findViewById(R.id.letter1_button);
-        Button izraelcanskiVjerovjesniciButton = (Button) view.findViewById(R.id.izraelcanskivjerovjesnicibutton);
-        Button izraelcanskiVjerovjesniciNakonMusaaButton = (Button) view.findViewById(R.id.izraelcanskivjerovjesnicinakonmusaabutton);
-        Button poglavljeONarodimaKojiSuUnisteniButton = (Button) view.findViewById(R.id.poglavljeonarodimakojisuunistenibutton);
-        Button manjePoznateRijeciButton = (Button) view.findViewById(R.id.manjepoznaterijecibutton);
+        Button letter2Button = (Button) view.findViewById(R.id.letter2_button);
+        Button letter3Button = (Button) view.findViewById(R.id.letter3_button);
+        Button letter4Button = (Button) view.findViewById(R.id.letter4_button);
 
         letter1Button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,10 +54,10 @@ public class SecondTab extends Fragment {
             }
         });
 
-        izraelcanskiVjerovjesniciButton.setOnClickListener(new View.OnClickListener() {
+        letter2Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(v.getContext(), IzraelcanskiVjerovjesnici.class);
+                Intent intent2 = new Intent(v.getContext(), Letter2.class);
                 startActivity(intent2);
 
                /* if (mInterstitialAd != null) {
@@ -69,10 +68,10 @@ public class SecondTab extends Fragment {
             }
         });
 
-        izraelcanskiVjerovjesniciNakonMusaaButton.setOnClickListener(new View.OnClickListener() {
+        letter3Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3 = new Intent(v.getContext(), IzraelcanskiVjerovjesniciNakonMusaa.class);
+                Intent intent3 = new Intent(v.getContext(), Letter3.class);
                 startActivity(intent3);
 
                /* if (mInterstitialAd != null) {
@@ -83,25 +82,11 @@ public class SecondTab extends Fragment {
             }
         });
 
-        poglavljeONarodimaKojiSuUnisteniButton.setOnClickListener(new View.OnClickListener() {
+        letter4Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(v.getContext(), PoglavljeONarodimaKojiSuUnisteni.class);
+                Intent intent4 = new Intent(v.getContext(), Letter4.class);
                 startActivity(intent4);
-
-               /* if (mInterstitialAd != null) {
-                    mInterstitialAd.show(getActivity());
-                } else {
-                    Log.d("---AdMob", "The interstitial ad wasn't ready yet.");
-                }*/
-            }
-        });
-
-        manjePoznateRijeciButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent5 = new Intent(v.getContext(), ManjePoznateRijeci.class);
-                startActivity(intent5);
 
                /* if (mInterstitialAd != null) {
                     mInterstitialAd.show(getActivity());

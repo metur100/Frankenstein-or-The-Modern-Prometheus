@@ -32,7 +32,7 @@
                 android:id="@+id/letter1_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Letter1"
+                android:text="@string/letter1"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_1"
                 android:layout_marginLeft="5dp"
@@ -40,10 +40,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/izraelcanskivjerovjesnicibutton"
+                android:id="@+id/letter2_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Izraelcanskivjerovjesnici"
+                android:text="@string/letter2"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_2"
                 android:layout_marginLeft="5dp"
@@ -51,35 +51,23 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/izraelcanskivjerovjesnicinakonmusaabutton"
+                android:id="@+id/letter3_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/IzraelcanskivjerovjesnicinakonMusa"
+                android:text="@string/letter3"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_3"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
 
-
             <Button
-                android:id="@+id/poglavljeonarodimakojisuunistenibutton"
+                android:id="@+id/letter4_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                  android:text="@string/Poglavljeonarodimakojisuunisteni"
+                  android:text="@string/letter4"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_4"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/manjepoznaterijecibutton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/Manjepoznaterijeci"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_5"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />

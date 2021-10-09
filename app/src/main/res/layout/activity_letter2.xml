@@ -2,10 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/scrollViewZoom_izraelcanskivjerovjesnicinakonmusaa"
+    android:id="@+id/scrollViewZoom_letter2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IzraelcanskiVjerovjesniciNakonMusaa">
+    tools:context=".Letter2">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -20,21 +20,21 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-black"
-            android:text="Izraelćanski vjerovjesnici nakon Musaa, alejhi selam"
+            android:text="Letter 2"
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textdocizraelcanskivjerovjesnicinakonmusaa"
+            android:id="@+id/letter2_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="15dp"
             android:layout_marginTop="95dp"
             android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
             android:textColor="#000000"
             android:textIsSelectable="true" />
     </RelativeLayout>

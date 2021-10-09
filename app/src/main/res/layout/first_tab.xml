@@ -28,10 +28,10 @@
                 android:src="@drawable/allprophetsappbackground" />
 
             <Button
-                android:id="@+id/ademsbutton"
+                android:id="@+id/chapter1_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Adem"
+                android:text="@string/chapter1"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_1"

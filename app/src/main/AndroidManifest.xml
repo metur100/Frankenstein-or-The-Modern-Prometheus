@@ -97,13 +97,13 @@
             android:name="com.certidevelopment.frankenstein.Chapter1"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.PoglavljeONarodimaKojiSuUnisteni"
+            android:name="com.certidevelopment.frankenstein.Letter4"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IzraelcanskiVjerovjesniciNakonMusaa"
+            android:name="com.certidevelopment.frankenstein.Letter3"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IzraelcanskiVjerovjesnici"
+            android:name="com.certidevelopment.frankenstein.Letter2"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
             android:name="com.certidevelopment.frankenstein.Letter1"

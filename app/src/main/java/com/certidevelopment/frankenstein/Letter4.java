@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class IzraelcanskiVjerovjesniciNakonMusaa extends AppCompatActivity {
+public class Letter4 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,15 +22,15 @@ public class IzraelcanskiVjerovjesniciNakonMusaa extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_izraelcanski_vjerovjesnici_nakon_musaa);
+        setContentView(R.layout.activity_letter4);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdocizraelcanskivjerovjesnicinakonmusaa);
+        TextView largeText = (TextView) findViewById(R.id.letter4_textview);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.izraelcanskivjerovjesnicinakonmusaa);
+            InputStream in_s = res.openRawResource(R.raw.letter4_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -40,7 +40,7 @@ public class IzraelcanskiVjerovjesniciNakonMusaa extends AppCompatActivity {
             largeText.setText("Error: Please, try again!");
         }
 
-        gestureDetector = new GestureDetector(this, new GestureListenerIzraelcanskiVjerovjesniciNakonMusaa());
+        gestureDetector = new GestureDetector(this, new GestureListenerLetter4());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +59,7 @@ public class IzraelcanskiVjerovjesniciNakonMusaa extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_izraelcanskivjerovjesnicinakonmusaa);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_letter4);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +74,7 @@ public class IzraelcanskiVjerovjesniciNakonMusaa extends AppCompatActivity {
     }
 }
 
-class GestureListenerIzraelcanskiVjerovjesniciNakonMusaa extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerLetter4 extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;
