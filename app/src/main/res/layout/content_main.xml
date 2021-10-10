@@ -11,38 +11,38 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/red"
+        android:background="@color/greenBackground"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="@color/yallow" />
+        app:titleTextColor="@color/green" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/red"
+        android:background="@color/greenBackground"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:tabIndicatorColor="@color/yallow"
-        app:tabSelectedTextColor="@color/yallow"
+        app:tabIndicatorColor="@color/green"
+        app:tabSelectedTextColor="@color/green"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/firstItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kazivanja o vjerovjesnicima"
-            android:tint="@color/yallow"
-            app:tint="@color/yallow" />
+            android:text="Chapters"
+            android:tint="@color/green"
+            app:tint="@color/green" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/secondItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ostala kazivanja"
+            android:text="Letters"
             android:tint="@color/black"
             app:tint="@color/black" />
 

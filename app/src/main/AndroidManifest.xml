@@ -34,61 +34,55 @@
             android:name="com.certidevelopment.frankenstein.AboutUs"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.LutText"
+            android:name="com.certidevelopment.frankenstein.Chapter7"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IsaText"
+            android:name="com.certidevelopment.frankenstein.Chapter14"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.JahjaText"
+            android:name="com.certidevelopment.frankenstein.Chapter20"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.JunusText"
+            android:name="com.certidevelopment.frankenstein.Chapter18"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.EljeseText"
+            android:name="com.certidevelopment.frankenstein.Chapter23"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IlijasText"
+            android:name="com.certidevelopment.frankenstein.Chapter22"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.SulejmanText"
+            android:name="com.certidevelopment.frankenstein.Chapter13"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.DavudText"
+            android:name="com.certidevelopment.frankenstein.Chapter15"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.ZulkiflText"
+            android:name="com.certidevelopment.frankenstein.Chapter8"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.MusaText"
+            android:name="com.certidevelopment.frankenstein.Chapter12"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.SuajbText"
+            android:name="com.certidevelopment.frankenstein.Chapter11"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.EjubText"
+            android:name="com.certidevelopment.frankenstein.Chapter10"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.JusufText"
+            android:name="com.certidevelopment.frankenstein.Chapter9"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IshakText"
+            android:name="com.certidevelopment.frankenstein.Chapter6"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IsmailText"
+            android:name="com.certidevelopment.frankenstein.Chapter5"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IbrahimText"
+            android:name="com.certidevelopment.frankenstein.Chapter4"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.SalihText"
-            android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
-        <activity
-            android:name="com.certidevelopment.frankenstein.HudText"
-            android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
-        <activity
-            android:name="com.certidevelopment.frankenstein.NuhText"
+            android:name="com.certidevelopment.frankenstein.Chapter3"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
             android:name="com.certidevelopment.frankenstein.Chapter2"
@@ -109,25 +103,19 @@
             android:name="com.certidevelopment.frankenstein.Letter1"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.ManjePoznateRijeci"
+            android:name="com.certidevelopment.frankenstein.Chapter24"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.DanijalText"
+            android:name="com.certidevelopment.frankenstein.Chapter21"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.EremijaText"
+            android:name="com.certidevelopment.frankenstein.Chapter19"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.SamuelText"
+            android:name="com.certidevelopment.frankenstein.Chapter17"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.HezekijelText"
-            android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
-        <activity
-            android:name="com.certidevelopment.frankenstein.HidrText"
-            android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
-        <activity
-            android:name="com.certidevelopment.frankenstein.JosuaText"
+            android:name="com.certidevelopment.frankenstein.Chapter16"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
             android:name="com.certidevelopment.frankenstein.MainActivity"

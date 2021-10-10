@@ -135,7 +135,7 @@ public class FirstTab extends Fragment {
         chapter6Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent6 = new Intent(v.getContext(), Chapter5.class);
+                Intent intent6 = new Intent(v.getContext(), Chapter6.class);
                 startActivity(intent6);
 
                /* if (mInterstitialAd != null) {
