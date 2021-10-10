@@ -16,35 +16,31 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="chapter1"><font fgcolor='#7f0b14' size="20">Chapter 1</font></string>
-    <string name="Idriss"><font fgcolor='#7f0b14' size="20">Idris</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Nuh"><font fgcolor='#7f0b14' size="20">Nuh</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Hud"><font fgcolor='#7f0b14' size="20">Hud</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Salih"><font fgcolor='#7f0b14' size="20">Salih</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Ibrahim"><font fgcolor='#7f0b14' size="20">Ibrahim</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Lut"><font fgcolor='#7f0b14' size="20">Lut</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Suajb"><font fgcolor='#7f0b14' size="20">Šuajb</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Ismail"><font fgcolor='#7f0b14' size="20">Ismail</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Ishak"><font fgcolor='#7f0b14' size="20">Ishak</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Jusuf"><font fgcolor='#7f0b14' size="20">Jusuf</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Ejjub"><font fgcolor='#7f0b14' size="20">Ejjub</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Zulkifl"><font fgcolor='#7f0b14' size="20">Zulkifl</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Junus"><font fgcolor='#7f0b14' size="20">Junus</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Musa"><font fgcolor='#7f0b14' size="20">Musa</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Josua"><font fgcolor='#7f0b14' size="20">Jošua</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Hidr"><font fgcolor='#7f0b14' size="20">Hidr</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Ilijas"><font fgcolor='#7f0b14' size="20">Ilijas</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Hezekijel"><font fgcolor='#7f0b14' size="20">Hezekijel</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="ElJese"><font fgcolor='#7f0b14' size="20">El-Jese</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Samuel"><font fgcolor='#7f0b14' size="20">Samuel</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Davud"><font fgcolor='#7f0b14' size="20">Davud</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Sulejman"><font fgcolor='#7f0b14' size="20">Sulejman</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Eremija"><font fgcolor='#7f0b14' size="20">Eremija</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Danijal"><font fgcolor='#7f0b14' size="20">Danijal</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Zekerija"><font fgcolor='#7f0b14' size="20">Zekerija</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
-    <string name="Isa"><font fgcolor='#7f0b14' size="20">Isa</font>\n\<font fgcolor='#000000' size="13">alejhi selam</font></string>
+    <string name="Chapter2"><font fgcolor='#7f0b14' size="20">Chapter 2</font></string>
+    <string name="Chapter3"><font fgcolor='#7f0b14' size="20">Chapter 3</font></string>
+    <string name="Chapter4"><font fgcolor='#7f0b14' size="20">Chapter 4</font></string>
+    <string name="Chapter5"><font fgcolor='#7f0b14' size="20">Chapter 5</font></string>
+    <string name="Chapter6"><font fgcolor='#7f0b14' size="20">Chapter 6</font></string>
+    <string name="Chapter7"><font fgcolor='#7f0b14' size="20">Chapter 7</font></string>
+    <string name="Chapter8"><font fgcolor='#7f0b14' size="20">Chapter 8</font></string>
+    <string name="Chapter9"><font fgcolor='#7f0b14' size="20">Chapter 9</font></string>
+    <string name="Chapter10"><font fgcolor='#7f0b14' size="20">Chapter 10</font></string>
+    <string name="Chapter11"><font fgcolor='#7f0b14' size="20">Chapter 11</font></string>
+    <string name="Chapter12"><font fgcolor='#7f0b14' size="20">Chapter 12</font></string>
+    <string name="Chapter13"><font fgcolor='#7f0b14' size="20">Chapter 13</font></string>
+    <string name="Chapter14"><font fgcolor='#7f0b14' size="20">Chapter 14</font></string>
+    <string name="Chapter15"><font fgcolor='#7f0b14' size="20">Chapter 15</font></string>
+    <string name="Chapter16"><font fgcolor='#7f0b14' size="20">Chapter 16</font></string>
+    <string name="Chapter17"><font fgcolor='#7f0b14' size="20">Chapter 17</font></string>
+    <string name="Chapter18"><font fgcolor='#7f0b14' size="20">Chapter 18</font></string>
+    <string name="Chapter19"><font fgcolor='#7f0b14' size="20">Chapter 19</font></string>
+    <string name="Chapter20"><font fgcolor='#7f0b14' size="20">Chapter 20</font></string>
+    <string name="Chapter21"><font fgcolor='#7f0b14' size="20">Chapter 21</font></string>
+    <string name="Chapter22"><font fgcolor='#7f0b14' size="20">Chapter 22</font></string>
+    <string name="Chapter23"><font fgcolor='#7f0b14' size="20">Chapter 23</font></string>
+    <string name="Chapter24"><font fgcolor='#7f0b14' size="20">Chapter 24</font></string>
     <string name="letter1"><font fgcolor='#7f0b14' size="15">Letter 1</font></string>
     <string name="letter2"><font fgcolor='#7f0b14' size="15">Letter 2</font></string>
     <string name="letter3"><font fgcolor='#7f0b14' size="15">Letter 3</font></string>
     <string name="letter4"><font fgcolor='#7f0b14' size="15">Letter 4</font></string>
-    <string name="Manjepoznaterijeci"><font fgcolor='#7f0b14' size="15">Manje poznate riječi</font></string>
 </resources>

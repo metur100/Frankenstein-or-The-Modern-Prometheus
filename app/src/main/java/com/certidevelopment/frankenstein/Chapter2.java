@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class IdrisText extends AppCompatActivity {
+public class Chapter2 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,14 +22,14 @@ public class IdrisText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_idris_text);
+        setContentView(R.layout.activity_chapter2);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdocidris);
+        TextView largeText = (TextView) findViewById(R.id.chapter2_textview);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.idristextdoc);
+            InputStream in_s = res.openRawResource(R.raw.chapter2_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -39,7 +39,7 @@ public class IdrisText extends AppCompatActivity {
             largeText.setText("Error: Please, try again!");
         }
 
-        gestureDetector = new GestureDetector(this, new GestureListenerIdris());
+        gestureDetector = new GestureDetector(this, new GestureListenerChapter2());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -58,7 +58,7 @@ public class IdrisText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_idris);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_chapter2);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +73,7 @@ public class IdrisText extends AppCompatActivity {
     }
 }
 
-class GestureListenerIdris extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerChapter2 extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

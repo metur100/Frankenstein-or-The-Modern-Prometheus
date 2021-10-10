@@ -91,7 +91,7 @@
             android:name="com.certidevelopment.frankenstein.NuhText"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
-            android:name="com.certidevelopment.frankenstein.IdrisText"
+            android:name="com.certidevelopment.frankenstein.Chapter2"
             android:parentActivityName="com.certidevelopment.frankenstein.MainActivity" />
         <activity
             android:name="com.certidevelopment.frankenstein.Chapter1"

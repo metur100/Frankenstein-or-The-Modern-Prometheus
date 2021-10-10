@@ -40,11 +40,11 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/idrissbutton"
+                android:id="@+id/chapter2_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/cardview_shadow_end_color"
-                android:text="@string/Idriss"
+                android:text="@string/Chapter2"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_2"
@@ -53,10 +53,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/nuhbuttton"
+                android:id="@+id/chapter3_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Nuh"
+                android:text="@string/Chapter3"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_3"
@@ -65,10 +65,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/hudbutton"
+                android:id="@+id/chapter4_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Hud"
+                android:text="@string/Chapter4"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_4"
@@ -77,10 +77,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/salihbutton"
+                android:id="@+id/chapter5_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Salih"
+                android:text="@string/Chapter5"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_5"
@@ -89,10 +89,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/ibrahimbutton"
+                android:id="@+id/chapter6_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Ibrahim"
+                android:text="@string/Chapter6"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_6"
@@ -101,10 +101,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/lutbutton"
+                android:id="@+id/chapter7_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Lut"
+                android:text="@string/Chapter7"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_7"
@@ -113,10 +113,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/suajbbutton"
+                android:id="@+id/chapter8_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Suajb"
+                android:text="@string/Chapter8"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_8"
@@ -125,10 +125,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/ismailbutton"
+                android:id="@+id/chapter9_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Ismail"
+                android:text="@string/Chapter9"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_9"
@@ -138,10 +138,10 @@
 
 
             <Button
-                android:id="@+id/ishakbutton"
+                android:id="@+id/chapter10_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Ishak"
+                android:text="@string/Chapter10"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_10"
@@ -151,10 +151,10 @@
 
 
             <Button
-                android:id="@+id/jusufbutton"
+                android:id="@+id/chapter11_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Jusuf"
+                android:text="@string/Chapter11"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_11"
@@ -163,10 +163,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/ejubbutton"
+                android:id="@+id/chapter12_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Ejjub"
+                android:text="@string/Chapter12"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_12"
@@ -175,10 +175,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/zulkiflbutton"
+                android:id="@+id/chapter13_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Zulkifl"
+                android:text="@string/Chapter13"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_13"
@@ -187,10 +187,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/junusbutton"
+                android:id="@+id/chapter14_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Junus"
+                android:text="@string/Chapter14"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_14"
@@ -199,10 +199,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/musabutton"
+                android:id="@+id/chapter15_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Musa"
+                android:text="@string/Chapter15"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_15"
@@ -211,10 +211,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/josuabutton"
+                android:id="@+id/chapter16_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Josua"
+                android:text="@string/Chapter16"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_16"
@@ -223,10 +223,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/hidrbutton"
+                android:id="@+id/chapter17_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Hidr"
+                android:text="@string/Chapter17"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_17"
                 android:paddingRight="40sp"
@@ -235,10 +235,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/ilijasbutton"
+                android:id="@+id/chapter18_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Ilijas"
+                android:text="@string/Chapter18"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_18"
                 android:paddingRight="40sp"
@@ -247,10 +247,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/hezekijelbutton"
+                android:id="@+id/chapter19_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Hezekijel"
+                android:text="@string/Chapter19"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_19"
                 android:paddingRight="40sp"
@@ -259,10 +259,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/eljesebutton"
+                android:id="@+id/chapter20_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/ElJese"
+                android:text="@string/Chapter20"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_20"
@@ -271,10 +271,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/samuelbutton"
+                android:id="@+id/chapter21_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Samuel"
+                android:text="@string/Chapter21"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_21"
@@ -285,10 +285,10 @@
 
 
             <Button
-                android:id="@+id/davudbutton"
+                android:id="@+id/chapter22_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Davud"
+                android:text="@string/Chapter22"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_22"
@@ -297,10 +297,10 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/sulejmanbutton"
+                android:id="@+id/chapter23_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Sulejman"
+                android:text="@string/Chapter23"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_23"
@@ -310,10 +310,10 @@
 
 
             <Button
-                android:id="@+id/eremijabutton"
+                android:id="@+id/chapter24_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/Eremija"
+                android:text="@string/Chapter24"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 app:icon="@drawable/ic_24"
@@ -322,42 +322,6 @@
 
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/danijalbutton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/Danijal"
-                android:paddingRight="40sp"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_25"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:textStyle="bold" />
-
-
-            <Button
-                android:id="@+id/jahjaizekerijjabutton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/Zekerija"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_26"
-                android:paddingRight="40sp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/isabutton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/Isa"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_27"
-                android:paddingRight="40sp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:textStyle="bold" />
 
             </LinearLayout>
         </ScrollView>
