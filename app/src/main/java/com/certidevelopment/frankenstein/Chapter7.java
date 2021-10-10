@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class LutText extends AppCompatActivity {
+public class Chapter7 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,7 +22,7 @@ public class LutText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lut_text);
+        setContentView(R.layout.activity_chapter7);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         gestureDetector = new GestureDetector(this, new GestureListenerLut());

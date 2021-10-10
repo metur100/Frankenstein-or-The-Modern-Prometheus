@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class SuajbText extends AppCompatActivity {
+public class Chapter18 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,16 +22,16 @@ public class SuajbText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_suajb_text);
+        setContentView(R.layout.activity_chapter18);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerSuajb());
+        gestureDetector = new GestureDetector(this, new GestureListenerIlijas());
 
-        TextView largeText = (TextView) findViewById(R.id.textdocsuajb);
+        TextView largeText = (TextView) findViewById(R.id.textdocilijas);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.suajbtextdoc);
+            InputStream in_s = res.openRawResource(R.raw.ilijastextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -58,7 +58,7 @@ public class SuajbText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_suajb);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_ilijas);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +73,7 @@ public class SuajbText extends AppCompatActivity {
     }
 }
 
-class GestureListenerSuajb extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerIlijas extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

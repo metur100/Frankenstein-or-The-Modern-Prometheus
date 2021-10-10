@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class ManjePoznateRijeci extends AppCompatActivity {
+public class Chapter12 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,15 +22,14 @@ public class ManjePoznateRijeci extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_manje_poznate_rijeci);
-
+        setContentView(R.layout.activity_chapter12);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdocmanjepoznaterijeci);
+        TextView largeText = (TextView) findViewById(R.id.textdocejjub);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.manjepoznaterijeci);
+            InputStream in_s = res.openRawResource(R.raw.ejjubtextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -40,7 +39,7 @@ public class ManjePoznateRijeci extends AppCompatActivity {
             largeText.setText("Error: Please, try again!");
         }
 
-        gestureDetector = new GestureDetector(this, new GestureListenerManjePoznateRijeci());
+        gestureDetector = new GestureDetector(this, new GestureListenerEjjub());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +58,7 @@ public class ManjePoznateRijeci extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_manjepoznaterijeci);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_ejjub);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +73,7 @@ public class ManjePoznateRijeci extends AppCompatActivity {
     }
 }
 
-class GestureListenerManjePoznateRijeci extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerEjjub extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

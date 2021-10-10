@@ -1,3 +1,4 @@
+
 package com.certidevelopment.frankenstein;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +14,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class IlijasText extends AppCompatActivity {
+public class Chapter10 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,16 +23,16 @@ public class IlijasText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ilijas_text);
+        setContentView(R.layout.activity_chapter10);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerIlijas());
+        gestureDetector = new GestureDetector(this, new GestureListenerIshak());
 
-        TextView largeText = (TextView) findViewById(R.id.textdocilijas);
+        TextView largeText = (TextView) findViewById(R.id.textdocishak);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.ilijastextdoc);
+            InputStream in_s = res.openRawResource(R.raw.ishaktextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -58,7 +59,7 @@ public class IlijasText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_ilijas);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_ishak);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +74,7 @@ public class IlijasText extends AppCompatActivity {
     }
 }
 
-class GestureListenerIlijas extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerIshak extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

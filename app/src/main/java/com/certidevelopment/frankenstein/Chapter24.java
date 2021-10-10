@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class HezekijelText extends AppCompatActivity {
+public class Chapter24 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,15 +22,15 @@ public class HezekijelText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hezekijel_text);
+        setContentView(R.layout.activity_chapter24);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdochezekijel);
+        TextView largeText = (TextView) findViewById(R.id.texteremijadoc);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.hezekijeltextdoc);
+            InputStream in_s = res.openRawResource(R.raw.eremijatextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -40,7 +40,7 @@ public class HezekijelText extends AppCompatActivity {
             largeText.setText("Error: Please, try again!");
         }
 
-        gestureDetector = new GestureDetector(this, new GestureListenerHezekijel());
+        gestureDetector = new GestureDetector(this, new GestureListenerEremija());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +59,7 @@ public class HezekijelText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_hezekijel);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_eremija);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +74,7 @@ public class HezekijelText extends AppCompatActivity {
     }
 }
 
-class GestureListenerHezekijel extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerEremija extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

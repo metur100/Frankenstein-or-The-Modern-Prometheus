@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class JunusText extends AppCompatActivity {
+public class Chapter11 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,16 +22,16 @@ public class JunusText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_junus_text);
+        setContentView(R.layout.activity_chapter11);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerJunus());
+        gestureDetector = new GestureDetector(this, new GestureListenerJusuf());
 
-        TextView largeText = (TextView) findViewById(R.id.textdocjunus);
+        TextView largeText = (TextView) findViewById(R.id.textdocjusuf);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.junustextdoc);
+            InputStream in_s = res.openRawResource(R.raw.jusuftextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -58,7 +58,7 @@ public class JunusText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_junus);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_jusuf);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +73,7 @@ public class JunusText extends AppCompatActivity {
     }
 }
 
-class GestureListenerJunus extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerJusuf extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

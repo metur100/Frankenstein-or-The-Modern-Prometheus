@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class NuhText extends AppCompatActivity {
+public class Chapter9 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,16 +22,16 @@ public class NuhText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nuh_text);
+        setContentView(R.layout.activity_chapter9);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerNuh());
+        gestureDetector = new GestureDetector(this, new GestureListenerIsmail());
 
-        TextView largeText = (TextView) findViewById(R.id.textdocnuh);
+        TextView largeText = (TextView) findViewById(R.id.textdocismail);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.nuhtextdoc);
+            InputStream in_s = res.openRawResource(R.raw.ismailtextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -58,7 +58,7 @@ public class NuhText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_nuh);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_ismail);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +73,7 @@ public class NuhText extends AppCompatActivity {
     }
 }
 
-class GestureListenerNuh extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerIsmail extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

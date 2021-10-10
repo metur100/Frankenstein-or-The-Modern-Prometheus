@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class HidrText extends AppCompatActivity {
+public class Chapter23 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,15 +22,16 @@ public class HidrText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hidr_text);
-
+        setContentView(R.layout.activity_chapter23);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdochidr);
+        gestureDetector = new GestureDetector(this, new GestureListenerSulejman());
+
+        TextView largeText = (TextView) findViewById(R.id.textdocsulejman);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.hidrtextdoc);
+            InputStream in_s = res.openRawResource(R.raw.sulejmantextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -39,8 +40,6 @@ public class HidrText extends AppCompatActivity {
         {
             largeText.setText("Error: Please, try again!");
         }
-
-        gestureDetector = new GestureDetector(this, new GestureListenerHidr());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +58,7 @@ public class HidrText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_hidr);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_sulejman);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +73,7 @@ public class HidrText extends AppCompatActivity {
     }
 }
 
-class GestureListenerHidr extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerSulejman extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

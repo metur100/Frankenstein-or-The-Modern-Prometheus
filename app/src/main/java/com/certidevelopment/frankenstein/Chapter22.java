@@ -1,4 +1,3 @@
-
 package com.certidevelopment.frankenstein;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class IshakText extends AppCompatActivity {
+public class Chapter22 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -23,16 +22,15 @@ public class IshakText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ishak_text);
+        setContentView(R.layout.activity_chapter22);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerIshak());
-
-        TextView largeText = (TextView) findViewById(R.id.textdocishak);
+        TextView largeText = (TextView) findViewById(R.id.textdocdavud);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.ishaktextdoc);
+            InputStream in_s = res.openRawResource(R.raw.dawudtextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -41,6 +39,8 @@ public class IshakText extends AppCompatActivity {
         {
             largeText.setText("Error: Please, try again!");
         }
+
+        gestureDetector = new GestureDetector(this, new GestureListenerDavud());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +59,7 @@ public class IshakText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_ishak);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_davud);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +74,7 @@ public class IshakText extends AppCompatActivity {
     }
 }
 
-class GestureListenerIshak extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerDavud extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

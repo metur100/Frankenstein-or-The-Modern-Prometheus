@@ -37,35 +37,32 @@ public class FirstTab extends Fragment {
 //            }
 //        });
 
-        Button ademsButton = (Button) view.findViewById(R.id.ademsbutton);
-        Button idrissButton = (Button) view.findViewById(R.id.idrissbutton);
-        Button nuhButton = (Button) view.findViewById(R.id.nuhbuttton);
-        Button hudButton = (Button) view.findViewById(R.id.hudbutton);
-        Button selihButton = (Button) view.findViewById(R.id.salihbutton);
-        Button ibrahimButton = (Button) view.findViewById(R.id.ibrahimbutton);
-        Button ismailButton = (Button) view.findViewById(R.id.ismailbutton);
-        Button lutButton = (Button) view.findViewById(R.id.lutbutton);
-        Button ishakButton = (Button) view.findViewById(R.id.ishakbutton);
-        Button jusufButton = (Button) view.findViewById(R.id.jusufbutton);
-        Button ejubButton = (Button) view.findViewById(R.id.ejubbutton);
-        Button suajbButton = (Button) view.findViewById(R.id.suajbbutton);
-        Button musaButton = (Button) view.findViewById(R.id.musabutton);
-        Button zulkiflButton = (Button) view.findViewById(R.id.zulkiflbutton);
-        Button davudButton = (Button) view.findViewById(R.id.davudbutton);
-        Button sulejmanButton = (Button) view.findViewById(R.id.sulejmanbutton);
-        Button ilijasButton = (Button) view.findViewById(R.id.ilijasbutton);
-        Button eljeseButton = (Button) view.findViewById(R.id.eljesebutton);
-        Button junusButton = (Button) view.findViewById(R.id.junusbutton);
-        Button jahjaButton = (Button) view.findViewById(R.id.jahjaizekerijjabutton);
-        Button isaButton = (Button) view.findViewById(R.id.isabutton);
-        Button danijalButton = (Button) view.findViewById(R.id.danijalbutton);
-        Button eremijaButton = (Button) view.findViewById(R.id.eremijabutton);
-        Button hezekijelButton = (Button) view.findViewById(R.id.hezekijelbutton);
-        Button hidrButton = (Button) view.findViewById(R.id.hidrbutton);
-        Button josuaButton = (Button) view.findViewById(R.id.josuabutton);
-        Button samuelButton = (Button) view.findViewById(R.id.samuelbutton);
+        Button chapter1Button = (Button) view.findViewById(R.id.chapter1_button);
+        Button chapter2Button = (Button) view.findViewById(R.id.chapter2_button);
+        Button chapter3Button = (Button) view.findViewById(R.id.chapter3_button);
+        Button chapter4Button = (Button) view.findViewById(R.id.chapter4_button);
+        Button chapter5Button = (Button) view.findViewById(R.id.chapter5_button);
+        Button chapter6Button = (Button) view.findViewById(R.id.chapter6_button);
+        Button chapter7Button = (Button) view.findViewById(R.id.chapter7_button);
+        Button chapter8Button = (Button) view.findViewById(R.id.chapter8_button);
+        Button chapter9Button = (Button) view.findViewById(R.id.chapter9_button);
+        Button chapter10Button = (Button) view.findViewById(R.id.chapter10_button);
+        Button chapter11Button = (Button) view.findViewById(R.id.chapter11_button);
+        Button chapter12Button = (Button) view.findViewById(R.id.chapter12_button);
+        Button chapter13Button = (Button) view.findViewById(R.id.chapter13_button);
+        Button chapter14Button = (Button) view.findViewById(R.id.chapter14_button);
+        Button chapter15Button = (Button) view.findViewById(R.id.chapter15_button);
+        Button chapter16Button = (Button) view.findViewById(R.id.chapter16_button);
+        Button chapter17Button = (Button) view.findViewById(R.id.chapter17_button);
+        Button chapter18Button = (Button) view.findViewById(R.id.chapter18_button);
+        Button chapter19Button = (Button) view.findViewById(R.id.chapter19_button);
+        Button chapter20Button = (Button) view.findViewById(R.id.chapter20_button);
+        Button chapter21Button = (Button) view.findViewById(R.id.chapter21_button);
+        Button chapter22Button = (Button) view.findViewById(R.id.chapter22_button);
+        Button chapter23Button = (Button) view.findViewById(R.id.chapter23_button);
+        Button chapter24Button = (Button) view.findViewById(R.id.chapter24_button);
 
-        ademsButton.setOnClickListener(new OnClickListener() {
+        chapter1Button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(v.getContext(), Chapter1.class);
@@ -79,10 +76,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        idrissButton.setOnClickListener(new View.OnClickListener() {
+        chapter2Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(v.getContext(), IdrisText.class);
+                Intent intent2 = new Intent(v.getContext(), Chapter2.class);
                 startActivity(intent2);
 
                /* if (mInterstitialAd != null) {
@@ -93,10 +90,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        nuhButton.setOnClickListener(new View.OnClickListener() {
+        chapter3Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3 = new Intent(v.getContext(), NuhText.class);
+                Intent intent3 = new Intent(v.getContext(), Chapter3.class);
                 startActivity(intent3);
 
                /* if (mInterstitialAd != null) {
@@ -107,10 +104,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        hudButton.setOnClickListener(new View.OnClickListener() {
+        chapter4Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(v.getContext(), HudText.class);
+                Intent intent4 = new Intent(v.getContext(), Chapter4.class);
                 startActivity(intent4);
 
                /* if (mInterstitialAd != null) {
@@ -121,10 +118,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        selihButton.setOnClickListener(new View.OnClickListener() {
+        chapter5Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent5 = new Intent(v.getContext(), SalihText.class);
+                Intent intent5 = new Intent(v.getContext(), Chapter5.class);
                 startActivity(intent5);
 
                /* if (mInterstitialAd != null) {
@@ -135,10 +132,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        ibrahimButton.setOnClickListener(new View.OnClickListener() {
+        chapter6Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent6 = new Intent(v.getContext(), IbrahimText.class);
+                Intent intent6 = new Intent(v.getContext(), Chapter5.class);
                 startActivity(intent6);
 
                /* if (mInterstitialAd != null) {
@@ -149,10 +146,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        ismailButton.setOnClickListener(new View.OnClickListener() {
+        chapter7Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent7 = new Intent(v.getContext(), IsmailText.class);
+                Intent intent7 = new Intent(v.getContext(), Chapter7.class);
                 startActivity(intent7);
 
                /* if (mInterstitialAd != null) {
@@ -163,10 +160,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        lutButton.setOnClickListener(new View.OnClickListener() {
+        chapter8Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent8 = new Intent(v.getContext(), LutText.class);
+                Intent intent8 = new Intent(v.getContext(), Chapter8.class);
                 startActivity(intent8);
 
                /* if (mInterstitialAd != null) {
@@ -177,10 +174,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        ishakButton.setOnClickListener(new View.OnClickListener() {
+        chapter9Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent9 = new Intent(v.getContext(), IshakText.class);
+                Intent intent9 = new Intent(v.getContext(), Chapter9.class);
                 startActivity(intent9);
 
                /* if (mInterstitialAd != null) {
@@ -191,10 +188,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        jusufButton.setOnClickListener(new View.OnClickListener() {
+        chapter10Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent11 = new Intent(v.getContext(), JusufText.class);
+                Intent intent11 = new Intent(v.getContext(), Chapter10.class);
                 startActivity(intent11);
 
                /* if (mInterstitialAd != null) {
@@ -205,10 +202,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        ejubButton.setOnClickListener(new View.OnClickListener() {
+        chapter11Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent12 = new Intent(v.getContext(), EjubText.class);
+                Intent intent12 = new Intent(v.getContext(), Chapter11.class);
                 startActivity(intent12);
 
                /* if (mInterstitialAd != null) {
@@ -219,10 +216,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        suajbButton.setOnClickListener(new View.OnClickListener() {
+        chapter12Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent13 = new Intent(v.getContext(), SuajbText.class);
+                Intent intent13 = new Intent(v.getContext(), Chapter12.class);
                 startActivity(intent13);
 
                /* if (mInterstitialAd != null) {
@@ -233,10 +230,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        musaButton.setOnClickListener(new View.OnClickListener() {
+        chapter13Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent14 = new Intent(v.getContext(), MusaText.class);
+                Intent intent14 = new Intent(v.getContext(), Chapter13.class);
                 startActivity(intent14);
 
                /* if (mInterstitialAd != null) {
@@ -247,10 +244,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        zulkiflButton.setOnClickListener(new View.OnClickListener() {
+        chapter14Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent16 = new Intent(v.getContext(), ZulkiflText.class);
+                Intent intent16 = new Intent(v.getContext(), Chapter14.class);
                 startActivity(intent16);
 
                /* if (mInterstitialAd != null) {
@@ -261,10 +258,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        davudButton.setOnClickListener(new View.OnClickListener() {
+        chapter15Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent17 = new Intent(v.getContext(), DavudText.class);
+                Intent intent17 = new Intent(v.getContext(), Chapter15.class);
                 startActivity(intent17);
 
                /* if (mInterstitialAd != null) {
@@ -275,10 +272,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        sulejmanButton.setOnClickListener(new View.OnClickListener() {
+        chapter16Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent18 = new Intent(v.getContext(), SulejmanText.class);
+                Intent intent18 = new Intent(v.getContext(), Chapter16.class);
                 startActivity(intent18);
 
                /* if (mInterstitialAd != null) {
@@ -289,10 +286,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        ilijasButton.setOnClickListener(new View.OnClickListener() {
+        chapter17Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent19 = new Intent(v.getContext(), IlijasText.class);
+                Intent intent19 = new Intent(v.getContext(), Chapter17.class);
                 startActivity(intent19);
 
                /* if (mInterstitialAd != null) {
@@ -303,10 +300,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        eljeseButton.setOnClickListener(new View.OnClickListener() {
+        chapter18Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent20 = new Intent(v.getContext(), EljeseText.class);
+                Intent intent20 = new Intent(v.getContext(), Chapter18.class);
                 startActivity(intent20);
 
                /* if (mInterstitialAd != null) {
@@ -317,10 +314,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        junusButton.setOnClickListener(new View.OnClickListener() {
+        chapter19Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent21 = new Intent(v.getContext(), JunusText.class);
+                Intent intent21 = new Intent(v.getContext(), Chapter19.class);
                 startActivity(intent21);
 
                /* if (mInterstitialAd != null) {
@@ -331,10 +328,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        jahjaButton.setOnClickListener(new View.OnClickListener() {
+        chapter20Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent23 = new Intent(v.getContext(), JahjaText.class);
+                Intent intent23 = new Intent(v.getContext(), Chapter20.class);
                 startActivity(intent23);
 
                /* if (mInterstitialAd != null) {
@@ -345,10 +342,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        isaButton.setOnClickListener(new View.OnClickListener() {
+        chapter21Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent24 = new Intent(v.getContext(), IsaText.class);
+                Intent intent24 = new Intent(v.getContext(), Chapter21.class);
                 startActivity(intent24);
 
                /* if (mInterstitialAd != null) {
@@ -359,10 +356,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        danijalButton.setOnClickListener(new View.OnClickListener() {
+        chapter22Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent25 = new Intent(v.getContext(), DanijalText.class);
+                Intent intent25 = new Intent(v.getContext(), Chapter22.class);
                 startActivity(intent25);
 
                /* if (mInterstitialAd != null) {
@@ -373,10 +370,10 @@ public class FirstTab extends Fragment {
             }
         });
 
-        eremijaButton.setOnClickListener(new View.OnClickListener() {
+        chapter23Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent26 = new Intent(v.getContext(), EremijaText.class);
+                Intent intent26 = new Intent(v.getContext(), Chapter23.class);
                 startActivity(intent26);
 
                /* if (mInterstitialAd != null) {
@@ -387,53 +384,11 @@ public class FirstTab extends Fragment {
             }
         });
 
-        hezekijelButton.setOnClickListener(new View.OnClickListener() {
+        chapter24Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent27 = new Intent(v.getContext(), HezekijelText.class);
+                Intent intent27 = new Intent(v.getContext(), Chapter24.class);
                 startActivity(intent27);
-
-               /* if (mInterstitialAd != null) {
-                    mInterstitialAd.show(getActivity());
-                } else {
-                    Log.d("---AdMob", "The interstitial ad wasn't ready yet.");
-                }*/
-            }
-        });
-
-        hidrButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent28 = new Intent(v.getContext(), HidrText.class);
-                startActivity(intent28);
-
-               /* if (mInterstitialAd != null) {
-                    mInterstitialAd.show(getActivity());
-                } else {
-                    Log.d("---AdMob", "The interstitial ad wasn't ready yet.");
-                }*/
-            }
-        });
-
-        josuaButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent29 = new Intent(v.getContext(), JosuaText.class);
-                startActivity(intent29);
-
-               /* if (mInterstitialAd != null) {
-                    mInterstitialAd.show(getActivity());
-                } else {
-                    Log.d("---AdMob", "The interstitial ad wasn't ready yet.");
-                }*/
-            }
-        });
-
-        samuelButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent30 = new Intent(v.getContext(), SamuelText.class);
-                startActivity(intent30);
 
                /* if (mInterstitialAd != null) {
                     mInterstitialAd.show(getActivity());

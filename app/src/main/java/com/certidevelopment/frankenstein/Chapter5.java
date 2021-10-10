@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class SalihText extends AppCompatActivity {
+public class Chapter5 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,7 +22,7 @@ public class SalihText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_salih_text);
+        setContentView(R.layout.activity_chapter5);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         gestureDetector = new GestureDetector(this, new GestureListenerSalih());

@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class SamuelText extends AppCompatActivity {
+public class Chapter15 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,15 +22,16 @@ public class SamuelText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_samuel_text);
-
+        setContentView(R.layout.activity_chapter15);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdocsamuel);
+        gestureDetector = new GestureDetector(this, new GestureListenerMusa());
+
+        TextView largeText = (TextView) findViewById(R.id.textdocmusa);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.samueltextdoc);
+            InputStream in_s = res.openRawResource(R.raw.musatextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -39,8 +40,6 @@ public class SamuelText extends AppCompatActivity {
         {
             largeText.setText("Error: Please, try again!");
         }
-
-        gestureDetector = new GestureDetector(this, new GestureListenerSamuel());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +58,7 @@ public class SamuelText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_samuel);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_musa);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +73,7 @@ public class SamuelText extends AppCompatActivity {
     }
 }
 
-class GestureListenerSamuel extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerMusa extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

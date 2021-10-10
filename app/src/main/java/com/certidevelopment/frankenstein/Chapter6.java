@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class IbrahimText extends AppCompatActivity {
+public class Chapter6 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,7 +22,7 @@ public class IbrahimText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ibrahim_text);
+        setContentView(R.layout.activity_chapter6);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         gestureDetector = new GestureDetector(this, new GestureListenerIbrahim());

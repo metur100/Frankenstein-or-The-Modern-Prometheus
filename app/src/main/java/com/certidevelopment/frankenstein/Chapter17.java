@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class ZulkiflText extends AppCompatActivity {
+public class Chapter17 extends AppCompatActivity {
 
     private float mScale = 1f;
     private ScaleGestureDetector mScaleDetector;
@@ -22,16 +22,15 @@ public class ZulkiflText extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zulkifl_text);
+        setContentView(R.layout.activity_chapter17);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerZulkifl());
-
-        TextView largeText = (TextView) findViewById(R.id.textdoczulkifl);
+        TextView largeText = (TextView) findViewById(R.id.textdochidr);
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.zulkifltextdoc);
+            InputStream in_s = res.openRawResource(R.raw.hidrtextdoc);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
@@ -40,6 +39,8 @@ public class ZulkiflText extends AppCompatActivity {
         {
             largeText.setText("Error: Please, try again!");
         }
+
+        gestureDetector = new GestureDetector(this, new GestureListenerHidr());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -58,7 +59,7 @@ public class ZulkiflText extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_zulkifl);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_hidr);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +74,7 @@ public class ZulkiflText extends AppCompatActivity {
     }
 }
 
-class GestureListenerZulkifl extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerHidr extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;
