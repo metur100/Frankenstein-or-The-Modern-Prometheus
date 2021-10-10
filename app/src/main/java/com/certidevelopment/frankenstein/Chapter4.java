@@ -27,7 +27,7 @@ public class Chapter4 extends AppCompatActivity {
 
         gestureDetector = new GestureDetector(this, new GestureListenerChapter4());
 
-        TextView largeText = (TextView) findViewById(R.id.textdochud);
+        TextView largeText = (TextView) findViewById(R.id.chapter4_textview);
 
         try {
             Resources res = getResources();
@@ -58,7 +58,7 @@ public class Chapter4 extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_hud);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_chapter4);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }

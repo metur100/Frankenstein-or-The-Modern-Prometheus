@@ -2,10 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/scrollViewZoom_lut"
+    android:id="@+id/scrollViewZoom_chapter7"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LutText">
+    tools:context=".Chapter7">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -20,14 +20,14 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-black"
-            android:text="Kazivnja o Lutu, alejhi selam"
+            android:text="Chapter 7"
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textdoclut"
+            android:id="@+id/chapter7_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"

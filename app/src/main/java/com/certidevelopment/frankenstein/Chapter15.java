@@ -25,9 +25,9 @@ public class Chapter15 extends AppCompatActivity {
         setContentView(R.layout.activity_chapter15);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerMusa());
+        gestureDetector = new GestureDetector(this, new GestureListenerChapter15());
 
-        TextView largeText = (TextView) findViewById(R.id.textdocmusa);
+        TextView largeText = (TextView) findViewById(R.id.chapter15_textview);
 
         try {
             Resources res = getResources();
@@ -58,7 +58,7 @@ public class Chapter15 extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_musa);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_chapter15);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +73,7 @@ public class Chapter15 extends AppCompatActivity {
     }
 }
 
-class GestureListenerMusa extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerChapter15 extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

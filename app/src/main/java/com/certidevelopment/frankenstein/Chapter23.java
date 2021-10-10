@@ -25,9 +25,9 @@ public class Chapter23 extends AppCompatActivity {
         setContentView(R.layout.activity_chapter23);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        gestureDetector = new GestureDetector(this, new GestureListenerSulejman());
+        gestureDetector = new GestureDetector(this, new GestureListenerChapter23());
 
-        TextView largeText = (TextView) findViewById(R.id.textdocsulejman);
+        TextView largeText = (TextView) findViewById(R.id.chapter23_textview);
 
         try {
             Resources res = getResources();
@@ -58,7 +58,7 @@ public class Chapter23 extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_sulejman);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_chapter23);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -73,7 +73,7 @@ public class Chapter23 extends AppCompatActivity {
     }
 }
 
-class GestureListenerSulejman extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerChapter23 extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

@@ -26,7 +26,7 @@ public class Chapter16 extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView largeText = (TextView) findViewById(R.id.textdocjosua);
+        TextView largeText = (TextView) findViewById(R.id.chapter16_textview);
 
         try {
             Resources res = getResources();
@@ -40,7 +40,7 @@ public class Chapter16 extends AppCompatActivity {
             largeText.setText("Error: Please, try again!");
         }
 
-        gestureDetector = new GestureDetector(this, new GestureListenerJosua());
+        gestureDetector = new GestureDetector(this, new GestureListenerChapter16());
 
         mScaleDetector = new ScaleGestureDetector(this, new ScaleGestureDetector.SimpleOnScaleGestureListener(){
             @Override
@@ -59,7 +59,7 @@ public class Chapter16 extends AppCompatActivity {
                 ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale, 1f / mScale, 1f / prevScale, 1f / mScale, detector.getFocusX(), detector.getFocusY());
                 scaleAnimation.setDuration(0);
                 scaleAnimation.setFillAfter(true);
-                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_josua);
+                ScrollView layout =(ScrollView) findViewById(R.id.scrollViewZoom_chapter16);
                 layout.startAnimation(scaleAnimation);
                 return true;
             }
@@ -74,7 +74,7 @@ public class Chapter16 extends AppCompatActivity {
     }
 }
 
-class GestureListenerJosua extends GestureDetector.SimpleOnGestureListener {
+class GestureListenerChapter16 extends GestureDetector.SimpleOnGestureListener {
     @Override
     public boolean onDown(MotionEvent e) {
         return true;

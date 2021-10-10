@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/scrollViewZoom_ilijas"
-    tools:context=".IlijasText">
+    android:id="@+id/scrollViewZoom_chapter18"
+    tools:context=".Chapter18">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -20,14 +20,14 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-black"
-            android:text="Kazivanja o Ilijasu, alejhi selam"
+            android:text="Chapter 18"
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textdocilijas"
+            android:id="@+id/chapter18_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"

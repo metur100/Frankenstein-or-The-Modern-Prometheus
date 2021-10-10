@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:id="@+id/scrollViewZoom_eljese"
+    android:id="@+id/scrollViewZoom_chapter20"
     android:layout_height="match_parent"
-    tools:context=".EljeseText">
+    tools:context=".Chapter20">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -20,14 +20,14 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-black"
-            android:text="Kazivanja o El-Jeseu, alejhi selam"
+            android:text="Chapter 20"
             android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textdoceljese"
+            android:id="@+id/chapter20_textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
