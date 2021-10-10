@@ -128,16 +128,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_exit:
                 final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-                builder.setMessage("Želite li izaći iz aplikacije?")
+                builder.setMessage("Do you really want to exit?")
                         .setCancelable(false)
-                        .setPositiveButton("Da", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 finish();
                             }
                         })
 
-                        .setNegativeButton("Ne", new DialogInterface.OnClickListener() {
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.cancel();
@@ -162,16 +162,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-        builder.setMessage("Želite li izaći iz aplikacije?")
+        builder.setMessage("Do you really want to exit?")
                 .setCancelable(false)
-                .setPositiveButton("Da", new DialogInterface.OnClickListener() {
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         finish();
                     }
                 })
 
-                .setNegativeButton("Ne", new DialogInterface.OnClickListener() {
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();

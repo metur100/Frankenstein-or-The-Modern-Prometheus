@@ -31,7 +31,7 @@ public class Chapter4 extends AppCompatActivity {
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.hudtextdoc);
+            InputStream in_s = res.openRawResource(R.raw.chapter4_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));

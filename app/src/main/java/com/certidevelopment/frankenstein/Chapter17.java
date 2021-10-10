@@ -30,7 +30,7 @@ public class Chapter17 extends AppCompatActivity {
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.hidrtextdoc);
+            InputStream in_s = res.openRawResource(R.raw.chapter17_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));

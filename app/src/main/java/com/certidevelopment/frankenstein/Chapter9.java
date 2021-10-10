@@ -31,7 +31,7 @@ public class Chapter9 extends AppCompatActivity {
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.ismailtextdoc);
+            InputStream in_s = res.openRawResource(R.raw.chapter9_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));

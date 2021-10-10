@@ -30,7 +30,7 @@ public class Chapter21 extends AppCompatActivity {
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.samueltextdoc);
+            InputStream in_s = res.openRawResource(R.raw.chapter21_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));

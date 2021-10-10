@@ -31,7 +31,7 @@ public class Chapter8 extends AppCompatActivity {
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.suajbtextdoc);
+            InputStream in_s = res.openRawResource(R.raw.chapter8_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));

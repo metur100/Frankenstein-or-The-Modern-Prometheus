@@ -32,7 +32,7 @@ public class Chapter10 extends AppCompatActivity {
 
         try {
             Resources res = getResources();
-            InputStream in_s = res.openRawResource(R.raw.ishaktextdoc);
+            InputStream in_s = res.openRawResource(R.raw.chapter10_text);
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
             largeText.setText(new String(b));
