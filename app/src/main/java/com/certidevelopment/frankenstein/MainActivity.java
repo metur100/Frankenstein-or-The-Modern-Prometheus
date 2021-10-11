@@ -107,13 +107,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent2);
                 break;
             case R.id.nav_rate:
-                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://appgallery.huawei.com/#/Featured"));
+                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.certidevelopment.frankenstein"));
                 startActivity(intent);
                 break;
             case R.id.nav_share:
                 Intent shareIntent = new Intent();
                 shareIntent.setAction(Intent.ACTION_SEND);
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "https://appgallery.huawei.com/#/Featured");
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.certidevelopment.frankenstein");
                 shareIntent.setType("text/plain");
                 startActivity(Intent.createChooser(shareIntent, "Share via"));
                 break;

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen"
-    android:background="@color/red">
+    android:background="@drawable/gardientfrankenstein">
 
     <ImageView
         android:id="@+id/splashScreen"
@@ -15,7 +15,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/coverbookimageibnkesirkazivanjaovjerovjesnicima"/>
+        android:src="@drawable/frankensteinbigger"/>
 
     <TextView
         android:id="@+id/textSplashScreen"
@@ -29,9 +29,10 @@
         android:paddingRight="5sp"
         android:fontFamily="sans-serif-condensed"
         android:paddingBottom="25sp"
-        android:text="A nije bilo naroda kome nije došao onaj koji ga je opominjao. (Fatir, 24.)"
+        android:text="Frankenstein; or, The Modern Prometheus
+        is a novel written by Mary Shelley"
         android:textAlignment="center"
-        android:textColor="@color/yallow"
+        android:textColor="@color/black"
         android:textSize="23sp"
         android:textStyle="bold"></TextView>
 

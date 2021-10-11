@@ -25,7 +25,7 @@
                 android:id="@+id/appbackground"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/frankensteinpng" />
+                android:src="@drawable/frankensteinbig" />
 
             <Button
                 android:id="@+id/chapter1_button"
@@ -34,7 +34,7 @@
                 android:text="@string/chapter1"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_1"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -47,7 +47,7 @@
                 android:text="@string/Chapter2"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_2"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -59,7 +59,7 @@
                 android:text="@string/Chapter3"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_3"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -71,7 +71,7 @@
                 android:text="@string/Chapter4"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_4"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -83,7 +83,7 @@
                 android:text="@string/Chapter5"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_5"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -95,7 +95,7 @@
                 android:text="@string/Chapter6"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_6"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -107,7 +107,7 @@
                 android:text="@string/Chapter7"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_7"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -119,7 +119,7 @@
                 android:text="@string/Chapter8"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_8"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -131,7 +131,7 @@
                 android:text="@string/Chapter9"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_9"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -144,7 +144,7 @@
                 android:text="@string/Chapter10"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_10"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -157,7 +157,7 @@
                 android:text="@string/Chapter11"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_11"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -169,7 +169,7 @@
                 android:text="@string/Chapter12"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_12"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -181,7 +181,7 @@
                 android:text="@string/Chapter13"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_13"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -193,7 +193,7 @@
                 android:text="@string/Chapter14"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_14"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -205,7 +205,7 @@
                 android:text="@string/Chapter15"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_15"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -217,7 +217,7 @@
                 android:text="@string/Chapter16"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_16"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -228,7 +228,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/Chapter17"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_17"
+                app:icon="@drawable/book_icon"
                 android:paddingRight="40sp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
@@ -240,7 +240,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/Chapter18"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_18"
+                app:icon="@drawable/book_icon"
                 android:paddingRight="40sp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
@@ -252,7 +252,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/Chapter19"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_19"
+                app:icon="@drawable/book_icon"
                 android:paddingRight="40sp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
@@ -265,7 +265,7 @@
                 android:text="@string/Chapter20"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_20"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -277,7 +277,7 @@
                 android:text="@string/Chapter21"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_21"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
 
@@ -291,7 +291,7 @@
                 android:text="@string/Chapter22"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_22"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -303,7 +303,7 @@
                 android:text="@string/Chapter23"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_23"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:textStyle="bold" />
@@ -316,7 +316,7 @@
                 android:text="@string/Chapter24"
                 android:paddingRight="40sp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                app:icon="@drawable/ic_24"
+                app:icon="@drawable/book_icon"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
 

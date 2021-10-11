@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="176dp"
-    android:background="@drawable/gardientredyallow"
+    android:background="@drawable/gardientfrankenstein"
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp"
@@ -18,8 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="1dp"
-        android:textColor="@color/yallow"
-        android:text="Kazivanja o vjerovjesnicima"
+        android:textColor="@color/black"
+        android:text="Frankenstein; or, The Modern Prometheus"
         android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1">
     </TextView>
