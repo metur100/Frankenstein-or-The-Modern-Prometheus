@@ -6,19 +6,19 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
-            android:title="Početna"/>
+            android:title="Home"/>
 
         <item android:id="@+id/nav_aboutus"
             android:icon="@drawable/ic_aboutus"
-            android:title="O aplikaciji"/>
+            android:title="About the book"/>
 
         <item android:id="@+id/nav_rate"
             android:icon="@drawable/ic_rateus"
-            android:title="Ocjeni aplikaciju"/>
+            android:title="Rate us"/>
 
         <item android:id="@+id/nav_share"
             android:icon="@drawable/ic_share"
-            android:title="Podijelite"/>
+            android:title="Share"/>
 
         <item android:id="@+id/nav_message"
             android:icon="@drawable/ic_message"
@@ -26,7 +26,7 @@
 
         <item android:id="@+id/nav_exit"
             android:icon="@drawable/ic_exit"
-            android:title="Izađi"/>
+            android:title="Exit"/>
 
     </group>
 
